@@ -1,10 +1,11 @@
-package com.app.apptest;
-
+package com.app.secondapp;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -12,7 +13,7 @@ import android.widget.TextView;
 public class MainActivity extends Activity implements View.OnClickListener {
 	private final String TAG = "park";
 	TextView txtTitle;
-	Button btnCall, btnFinish;
+	Button btnFinish;
 	private final int SUB_ACTIVITY = 123;
 
     @Override
@@ -23,21 +24,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
         Log.i(TAG, "onCreate()");
         
         txtTitle = (TextView) findViewById(R.id.txtTitle);
-        btnCall = (Button) findViewById(R.id.btnCall);
         btnFinish = (Button) findViewById(R.id.btnFinish);
-        btnCall.setOnClickListener(this);
+
         btnFinish.setOnClickListener(this);
     }
     
     public void onClick(View v) {
     	switch (v.getId()) {
-    	case R.id.btnCall : 
-    		Intent i = new Intent(getApplicationContext(), SubActivity.class);
-    		i.putExtra("arg", "argument");
-//    		i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-    		startActivity(i);
-//    		startActivityForResult(i,SUB_ACTIVITY);
-    		break;
+
     	case R.id.btnFinish : break;
     	}
     }
@@ -121,3 +115,4 @@ public class MainActivity extends Activity implements View.OnClickListener {
     
     
 }
+

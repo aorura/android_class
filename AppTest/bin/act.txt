@@ -1,0 +1,313 @@
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+Display #0 (activities from top to bottom):
+  Stack #1:
+    Task id #34
+    * TaskRecord{708f88d #34 A=com.app.apptest U=0 sz=9}
+      userId=0 effectiveUid=u0a53 mCallingUid=0 mCallingPackage=null
+      affinity=com.app.apptest
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.app.apptest/.MainActivity}
+      realActivity=com.app.apptest/.MainActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=9 taskType=0 mTaskToReturnTo=1
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+      Activities=[ActivityRecord{fa20eb3 u0 com.app.apptest/.MainActivity t34}, ActivityRecord{1e662b1b u0 com.app.apptest/.SubActivity t34}, ActivityRecord{154f72c9 u0 com.app.apptest/.SubActivity t34}, ActivityRecord{2980b2e7 u0 com.app.apptest/.SubActivity t34}, ActivityRecord{1d2f4932 u0 com.app.apptest/.SubActivity t34}, ActivityRecord{2692756 u0 com.app.apptest/.SubActivity t34}, ActivityRecord{1efa185c u0 com.app.apptest/.SubActivity t34}, ActivityRecord{17b34892 u0 com.app.apptest/.SubActivity t34}, ActivityRecord{15baf19 u0 com.app.apptest/.SubActivity t34}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/34_task_thumbnail.png
+      hasBeenVisible=true firstActiveTime=1440492996315 lastActiveTime=1440492996315 (inactive for 4s)
+      * Hist #8: ActivityRecord{15baf19 u0 com.app.apptest/.SubActivity t34}
+          packageName=com.app.apptest processName=com.app.apptest
+          launchedFromUid=10053 launchedFromPackage=com.app.apptest userId=0
+          app=ProcessRecord{49afa42 3097:com.app.apptest/u0a53}
+          Intent { cmp=com.app.apptest/.SubActivity (has extras) }
+          frontOfTask=false task=TaskRecord{708f88d #34 A=com.app.apptest U=0 sz=9}
+          taskAffinity=com.app.apptest
+          realActivity=com.app.apptest/.SubActivity
+          baseDir=/data/app/com.app.apptest-1/base.apk
+          dataDir=/data/data/com.app.apptest
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={160dpi always-compat} labelRes=0x7f0a0012 icon=0x7f02003e theme=0x7f0b012f
+          config={1.0 310mcc260mnc en_US ldltr sw800dp w800dp h1207dp 160dpi xlrg port finger qwerty/v/v -nav/h s.6}
+          taskDescription: iconFilename=null label="null" color=ff212121
+          launchFailed=false launchCount=1 lastLaunchTime=-4s398ms
+          haveState=false icicle=null
+          state=RESUMED stopped=false delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=true sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=true lastVisibleTime=-2s878ms
+      * Hist #7: ActivityRecord{17b34892 u0 com.app.apptest/.SubActivity t34}
+          packageName=com.app.apptest processName=com.app.apptest
+          launchedFromUid=10053 launchedFromPackage=com.app.apptest userId=0
+          app=ProcessRecord{49afa42 3097:com.app.apptest/u0a53}
+          Intent { cmp=com.app.apptest/.SubActivity (has extras) }
+          frontOfTask=false task=TaskRecord{708f88d #34 A=com.app.apptest U=0 sz=9}
+          taskAffinity=com.app.apptest
+          realActivity=com.app.apptest/.SubActivity
+          baseDir=/data/app/com.app.apptest-1/base.apk
+          dataDir=/data/data/com.app.apptest
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={160dpi always-compat} labelRes=0x7f0a0012 icon=0x7f02003e theme=0x7f0b012f
+          config={1.0 310mcc260mnc en_US ldltr sw800dp w800dp h1207dp 160dpi xlrg port finger qwerty/v/v -nav/h s.6}
+          taskDescription: iconFilename=null label="null" color=ff212121
+          launchFailed=false launchCount=0 lastLaunchTime=-4s736ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=424]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-3s266ms
+      * Hist #6: ActivityRecord{1efa185c u0 com.app.apptest/.SubActivity t34}
+          packageName=com.app.apptest processName=com.app.apptest
+          launchedFromUid=10053 launchedFromPackage=com.app.apptest userId=0
+          app=ProcessRecord{49afa42 3097:com.app.apptest/u0a53}
+          Intent { cmp=com.app.apptest/.SubActivity (has extras) }
+          frontOfTask=false task=TaskRecord{708f88d #34 A=com.app.apptest U=0 sz=9}
+          taskAffinity=com.app.apptest
+          realActivity=com.app.apptest/.SubActivity
+          baseDir=/data/app/com.app.apptest-1/base.apk
+          dataDir=/data/data/com.app.apptest
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={160dpi always-compat} labelRes=0x7f0a0012 icon=0x7f02003e theme=0x7f0b012f
+          config={1.0 310mcc260mnc en_US ldltr sw800dp w800dp h1207dp 160dpi xlrg port finger qwerty/v/v -nav/h s.6}
+          taskDescription: iconFilename=null label="null" color=ff212121
+          launchFailed=false launchCount=0 lastLaunchTime=-5s616ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=424]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+      * Hist #5: ActivityRecord{2692756 u0 com.app.apptest/.SubActivity t34}
+          packageName=com.app.apptest processName=com.app.apptest
+          launchedFromUid=10053 launchedFromPackage=com.app.apptest userId=0
+          app=ProcessRecord{49afa42 3097:com.app.apptest/u0a53}
+          Intent { cmp=com.app.apptest/.SubActivity (has extras) }
+          frontOfTask=false task=TaskRecord{708f88d #34 A=com.app.apptest U=0 sz=9}
+          taskAffinity=com.app.apptest
+          realActivity=com.app.apptest/.SubActivity
+          baseDir=/data/app/com.app.apptest-1/base.apk
+          dataDir=/data/data/com.app.apptest
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={160dpi always-compat} labelRes=0x7f0a0012 icon=0x7f02003e theme=0x7f0b012f
+          config={1.0 310mcc260mnc en_US ldltr sw800dp w800dp h1207dp 160dpi xlrg port finger qwerty/v/v -nav/h s.6}
+          taskDescription: iconFilename=null label="null" color=ff212121
+          launchFailed=false launchCount=0 lastLaunchTime=-6s690ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=424]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-5s714ms
+      * Hist #4: ActivityRecord{1d2f4932 u0 com.app.apptest/.SubActivity t34}
+          packageName=com.app.apptest processName=com.app.apptest
+          launchedFromUid=10053 launchedFromPackage=com.app.apptest userId=0
+          app=ProcessRecord{49afa42 3097:com.app.apptest/u0a53}
+          Intent { cmp=com.app.apptest/.SubActivity (has extras) }
+          frontOfTask=false task=TaskRecord{708f88d #34 A=com.app.apptest U=0 sz=9}
+          taskAffinity=com.app.apptest
+          realActivity=com.app.apptest/.SubActivity
+          baseDir=/data/app/com.app.apptest-1/base.apk
+          dataDir=/data/data/com.app.apptest
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={160dpi always-compat} labelRes=0x7f0a0012 icon=0x7f02003e theme=0x7f0b012f
+          config={1.0 310mcc260mnc en_US ldltr sw800dp w800dp h1207dp 160dpi xlrg port finger qwerty/v/v -nav/h s.6}
+          taskDescription: iconFilename=null label="null" color=ff212121
+          launchFailed=false launchCount=0 lastLaunchTime=-8s358ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=424]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-6s832ms
+      * Hist #3: ActivityRecord{2980b2e7 u0 com.app.apptest/.SubActivity t34}
+          packageName=com.app.apptest processName=com.app.apptest
+          launchedFromUid=10053 launchedFromPackage=com.app.apptest userId=0
+          app=ProcessRecord{49afa42 3097:com.app.apptest/u0a53}
+          Intent { cmp=com.app.apptest/.SubActivity (has extras) }
+          frontOfTask=false task=TaskRecord{708f88d #34 A=com.app.apptest U=0 sz=9}
+          taskAffinity=com.app.apptest
+          realActivity=com.app.apptest/.SubActivity
+          baseDir=/data/app/com.app.apptest-1/base.apk
+          dataDir=/data/data/com.app.apptest
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={160dpi always-compat} labelRes=0x7f0a0012 icon=0x7f02003e theme=0x7f0b012f
+          config={1.0 310mcc260mnc en_US ldltr sw800dp w800dp h1207dp 160dpi xlrg port finger qwerty/v/v -nav/h s.6}
+          taskDescription: iconFilename=null label="null" color=ff212121
+          launchFailed=false launchCount=0 lastLaunchTime=-8s745ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=424]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-7s254ms
+      * Hist #2: ActivityRecord{154f72c9 u0 com.app.apptest/.SubActivity t34}
+          packageName=com.app.apptest processName=com.app.apptest
+          launchedFromUid=10053 launchedFromPackage=com.app.apptest userId=0
+          app=ProcessRecord{49afa42 3097:com.app.apptest/u0a53}
+          Intent { cmp=com.app.apptest/.SubActivity (has extras) }
+          frontOfTask=false task=TaskRecord{708f88d #34 A=com.app.apptest U=0 sz=9}
+          taskAffinity=com.app.apptest
+          realActivity=com.app.apptest/.SubActivity
+          baseDir=/data/app/com.app.apptest-1/base.apk
+          dataDir=/data/data/com.app.apptest
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={160dpi always-compat} labelRes=0x7f0a0012 icon=0x7f02003e theme=0x7f0b012f
+          config={1.0 310mcc260mnc en_US ldltr sw800dp w800dp h1207dp 160dpi xlrg port finger qwerty/v/v -nav/h s.6}
+          taskDescription: iconFilename=null label="null" color=ff212121
+          launchFailed=false launchCount=0 lastLaunchTime=-11s477ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=424]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-8s961ms
+      * Hist #1: ActivityRecord{1e662b1b u0 com.app.apptest/.SubActivity t34}
+          packageName=com.app.apptest processName=com.app.apptest
+          launchedFromUid=10053 launchedFromPackage=com.app.apptest userId=0
+          app=ProcessRecord{49afa42 3097:com.app.apptest/u0a53}
+          Intent { cmp=com.app.apptest/.SubActivity (has extras) }
+          frontOfTask=false task=TaskRecord{708f88d #34 A=com.app.apptest U=0 sz=9}
+          taskAffinity=com.app.apptest
+          realActivity=com.app.apptest/.SubActivity
+          baseDir=/data/app/com.app.apptest-1/base.apk
+          dataDir=/data/data/com.app.apptest
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={160dpi always-compat} labelRes=0x7f0a0012 icon=0x7f02003e theme=0x7f0b012f
+          config={1.0 310mcc260mnc en_US ldltr sw800dp w800dp h1207dp 160dpi xlrg port finger qwerty/v/v -nav/h s.6}
+          taskDescription: iconFilename=null label="null" color=ff212121
+          launchFailed=false launchCount=0 lastLaunchTime=-12s978ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=424]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-11s900ms
+      * Hist #0: ActivityRecord{fa20eb3 u0 com.app.apptest/.MainActivity t34}
+          packageName=com.app.apptest processName=com.app.apptest
+          launchedFromUid=0 launchedFromPackage=null userId=0
+          app=ProcessRecord{49afa42 3097:com.app.apptest/u0a53}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.app.apptest/.MainActivity }
+          frontOfTask=true task=TaskRecord{708f88d #34 A=com.app.apptest U=0 sz=9}
+          taskAffinity=com.app.apptest
+          realActivity=com.app.apptest/.MainActivity
+          baseDir=/data/app/com.app.apptest-1/base.apk
+          dataDir=/data/data/com.app.apptest
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={160dpi always-compat} labelRes=0x7f0a0012 icon=0x7f02003e theme=0x7f0b012f
+          config={1.0 310mcc260mnc en_US ldltr sw800dp w800dp h1207dp 160dpi xlrg port finger qwerty/v/v -nav/h s.6}
+          taskDescription: iconFilename=null label="null" color=ff212121
+          launchFailed=false launchCount=0 lastLaunchTime=-15s506ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=424]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=0
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-14s362ms
+
+    Running activities (most recent first):
+      TaskRecord{708f88d #34 A=com.app.apptest U=0 sz=9}
+        Run #8: ActivityRecord{15baf19 u0 com.app.apptest/.SubActivity t34}
+        Run #7: ActivityRecord{17b34892 u0 com.app.apptest/.SubActivity t34}
+        Run #6: ActivityRecord{1efa185c u0 com.app.apptest/.SubActivity t34}
+        Run #5: ActivityRecord{2692756 u0 com.app.apptest/.SubActivity t34}
+        Run #4: ActivityRecord{1d2f4932 u0 com.app.apptest/.SubActivity t34}
+        Run #3: ActivityRecord{2980b2e7 u0 com.app.apptest/.SubActivity t34}
+        Run #2: ActivityRecord{154f72c9 u0 com.app.apptest/.SubActivity t34}
+        Run #1: ActivityRecord{1e662b1b u0 com.app.apptest/.SubActivity t34}
+        Run #0: ActivityRecord{fa20eb3 u0 com.app.apptest/.MainActivity t34}
+
+    mResumedActivity: ActivityRecord{15baf19 u0 com.app.apptest/.SubActivity t34}
+    mLastPausedActivity: ActivityRecord{17b34892 u0 com.app.apptest/.SubActivity t34}
+
+  Stack #0:
+    Task id #3
+    * TaskRecord{23f3642b #3 A=com.android.launcher U=0 sz=1}
+      userId=0 effectiveUid=u0a7 mCallingUid=u0a12 mCallingPackage=com.android.systemui
+      affinity=com.android.launcher
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.android.launcher/com.android.launcher2.Launcher}
+      realActivity=com.android.launcher/com.android.launcher2.Launcher
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=1 mTaskToReturnTo=0
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+      Activities=[ActivityRecord{2aa6a2a4 u0 com.android.launcher/com.android.launcher2.Launcher t3}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/3_task_thumbnail.png
+      hasBeenVisible=true firstActiveTime=1440492984723 lastActiveTime=1440492984723 (inactive for 16s)
+      * Hist #0: ActivityRecord{2aa6a2a4 u0 com.android.launcher/com.android.launcher2.Launcher t3}
+          packageName=com.android.launcher processName=com.android.launcher
+          launchedFromUid=0 launchedFromPackage=null userId=0
+          app=ProcessRecord{1b68f088 906:com.android.launcher/u0a7}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.android.launcher/com.android.launcher2.Launcher }
+          frontOfTask=true task=TaskRecord{23f3642b #3 A=com.android.launcher U=0 sz=1}
+          taskAffinity=com.android.launcher
+          realActivity=com.android.launcher/com.android.launcher2.Launcher
+          baseDir=/system/priv-app/Launcher2/Launcher2.apk
+          dataDir=/data/user/0/com.android.launcher
+          stateNotNeeded=true componentSpecified=false mActivityType=1
+          compat={160dpi always-compat} labelRes=0x7f0c0000 icon=0x7f030001 theme=0x7f0d0001
+          config={1.0 310mcc260mnc en_US ldltr sw800dp w800dp h1207dp 160dpi xlrg port finger qwerty/v/v -nav/h s.6}
+          taskDescription: iconFilename=null label="null" color=ffe6e6e6
+          launchFailed=false launchCount=0 lastLaunchTime=-2h51m4s490ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=5736]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=HOME_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-30s474ms
+
+    Task id #14
+    * TaskRecord{36280a21 #14 A=com.android.systemui U=0 sz=1}
+      userId=0 effectiveUid=u0a12 mCallingUid=u0a12 mCallingPackage=com.android.systemui
+      affinity=com.android.systemui
+      intent={act=com.android.systemui.recents.SHOW_RECENTS flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[95,227][706,838]}
+      realActivity=com.android.systemui/.recents.RecentsActivity
+      autoRemoveRecents=false isPersistable=false numFullscreen=1 taskType=2 mTaskToReturnTo=1
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false
+      Activities=[ActivityRecord{3086f19b u0 com.android.systemui/.recents.RecentsActivity t14}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system/recent_images/14_task_thumbnail.png
+      hasBeenVisible=true firstActiveTime=1440492845933 lastActiveTime=1440492845933 (inactive for 154s)
+      * Hist #0: ActivityRecord{3086f19b u0 com.android.systemui/.recents.RecentsActivity t14}
+          packageName=com.android.systemui processName=com.android.systemui
+          launchedFromUid=10012 launchedFromPackage=com.android.systemui userId=0
+          app=ProcessRecord{38a88e46 545:com.android.systemui/u0a12}
+          Intent { act=com.android.systemui.recents.SHOW_RECENTS flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[95,227][706,838] }
+          frontOfTask=true task=TaskRecord{36280a21 #14 A=com.android.systemui U=0 sz=1}
+          taskAffinity=com.android.systemui
+          realActivity=com.android.systemui/.recents.RecentsActivity
+          baseDir=/system/priv-app/SystemUI/SystemUI.apk
+          dataDir=/data/data/com.android.systemui
+          stateNotNeeded=true componentSpecified=true mActivityType=2
+          compat={160dpi always-compat} labelRes=0x7f0c0096 icon=0x7f0200ca theme=0x7f0b0003
+          config={1.0 310mcc260mnc en_US ldltr sw800dp w800dp h1207dp 160dpi xlrg port finger qwerty/v/v -nav/h s.6}
+          taskDescription: iconFilename=null label="null" color=ffe6e6e6
+          launchFailed=false launchCount=0 lastLaunchTime=-1h20m43s248ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=576]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true
+          fullscreen=true noDisplay=false immersive=false launchMode=3
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=RECENTS_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-2m35s586ms
+
+    Running activities (most recent first):
+      TaskRecord{23f3642b #3 A=com.android.launcher U=0 sz=1}
+        Run #1: ActivityRecord{2aa6a2a4 u0 com.android.launcher/com.android.launcher2.Launcher t3}
+      TaskRecord{36280a21 #14 A=com.android.systemui U=0 sz=1}
+        Run #0: ActivityRecord{3086f19b u0 com.android.systemui/.recents.RecentsActivity t14}
+
+    mLastPausedActivity: ActivityRecord{2aa6a2a4 u0 com.android.launcher/com.android.launcher2.Launcher t3}
+
+  mFocusedActivity: ActivityRecord{15baf19 u0 com.app.apptest/.SubActivity t34}
+  mFocusedStack=ActivityStack{b421807 stackId=1, 3 tasks} mLastFocusedStack=ActivityStack{b421807 stackId=1, 3 tasks}
+  mSleepTimeout=false
+  mCurTaskId=34
+  mUserStackInFront={}
+  mActivityContainers={0=ActivtyContainer{0}A, 1=ActivtyContainer{1}A}
