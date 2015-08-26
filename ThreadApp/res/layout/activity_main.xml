@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#0078ff"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0078ff"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtResult2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0078ff"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Activity" />
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish App" />
+
+</LinearLayout>
