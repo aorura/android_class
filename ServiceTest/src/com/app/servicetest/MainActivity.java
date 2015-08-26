@@ -7,24 +7,25 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.os.RemoteException;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.app.servicetest.UserService.RemoteService;
+
 
 public class MainActivity extends Activity implements View.OnClickListener {
 	EditText edtNumber1, edtNumber2;
 	TextView txtResult, txtResult2;
 	Button btnStartService, btnStopService, btnFinish, btnCalc;
-	RemoteService mService;
+	IRemoteService mService;
 	ServiceConnection mConnection = new ServiceConnection() {
 
 		@Override
 		public void onServiceConnected(ComponentName name, IBinder service) {
 			// TODO Auto-generated method stub
-			mService = (RemoteService) service;
+			mService = IRemoteService.Stub.asInterface(service);
 		}
 
 		@Override
@@ -75,7 +76,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
 		case R.id.btnCalc:
 			int number1 = Integer.parseInt(edtNumber1.getText().toString());
 			int number2 = Integer.parseInt(edtNumber2.getText().toString());
-			int result = mService.calc(number1, number2);
+			int result=0;
+			try {
+				result = mService.calc(number1, number2);
+			} catch (RemoteException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				break;
+			}
 			txtResult2.setText(Integer.toString(result));
 			break;
 		}

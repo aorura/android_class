@@ -10,14 +10,15 @@ public class UserService extends Service {
 	private int count = 0;
 	
 	// IPC service [[
-	private final IBinder remoteService = new RemoteService();
-	
-	public class RemoteService extends Binder {
+//	private final IBinder remoteService = new RemoteService();
+//	
+//	public class RemoteService extends Binder {
+	private final IRemoteService.Stub remoteService = new IRemoteService.Stub() {
 		// user method
-		int calc(int numberOne, int numberTwo) {
+		public int calc(int numberOne, int numberTwo) {
 			return (numberOne + numberTwo);
 		}
-	}
+	};
 	
 	@Override
 	public IBinder onBind(Intent intent) {
